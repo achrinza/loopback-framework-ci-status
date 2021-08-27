@@ -25,7 +25,7 @@
 
 ## Testing Environment
 
-| Repository Name | Windows x86-64 | macOS x86-64 | Linux x86-64 | Linux AArch64 | Linux ppc64le | Linux s390x
+| Repository Name | Windows x86-64 | macOS x86-64 | Linux x86-64 | Linux Aarch64 | Linux ppc64le | Linux s390x
 |-|-|-|-|-|-|-
 | loopback-next | 14 | 14 | 10,12,14,16 | - | - | -
 | loopback-connector-cassandra | - | - | 8,10,12 | - | - | -
@@ -62,8 +62,8 @@
 | macOS x86-64 | GitHub Actions
 | Linux x86-64 (loopback-connector-cassandra/cloudant/grpc/openapi) | Travis CI
 | Linux x86-64 | GitHub Actions
-| Linux AArch64 | Travis CI
-| Linux AArch64 | Travis CI
+| Linux Aarch64 | Travis CI
+| Linux Aarch64 | Travis CI
 | Linux ppc64le | Travis CI
 | Linux s390x | Travis CI
 
