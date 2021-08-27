@@ -72,7 +72,3 @@
 ### Coverage Reports
 
 Due to limitations of publishing coverage from builds across multiple CI providers, only coverage from tests executed within GitHub Actions are published.
-
-### Test Reports
-
-Test reports are not included in this Gist due to [Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) restrictions.
