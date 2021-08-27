@@ -18,7 +18,7 @@
 ## Coverage & Renovate Report
 
 | Repository Name | Coverage | Renovate
-|-|-
+|-|-|-
 | loopback-next | [![Coverage Status](https://coveralls.io/repos/github/loopbackio/loopback-next/badge.svg)](https://coveralls.io/github/loopbackio/loopback-next) | [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
 | loopback-connector-soap | [![Coverage Status](https://coveralls.io/repos/github/loopbackio/loopback-connector-soap/badge.svg)](https://coveralls.io/github/loopbackio/loopback-connector-soap) | -
 | strong-soap | [![Coverage Status](https://coveralls.io/repos/github/loopbackio/strong-soap/badge.svg)](https://coveralls.io/github/loopbackio/strong-soap) | -
