@@ -35,7 +35,6 @@
 | loopback-connector-dashdb | - | - | - | - | - | -
 | loopback-connector-elastic-search | - | - | - | - | - | -
 | loopback-connector-grpc | - | - | 10,12,14 | - | - | -
-| loopback-connector-ibmdb | - | - | - | - | - | -
 | loopback-connector-ibmi | - | - | - | - | - | -
 | loopback-connector-kv-extreme-scale | - | - | - | - | - | -
 | loopback-connector-kv-redis | - | - | 10,12,14 | - | - | -
@@ -51,6 +50,7 @@
 | loopback-connector-soap | - | - | 10,12,14 | - | - | -
 | loopback-connector-sqlite3 | - | - | - | - | - | -
 | loopback-datasource-juggler | - | - | - | - | - | -
+| loopback-ibmdb | - | - | - | - | - | -
 | strong-soap | 14 | 14 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16
 
 ## Testing Environment CI provider
