@@ -36,7 +36,7 @@
 | loopback-connector-db2 | - | - | - | - | - | -
 | loopback-connector-dashdb | - | - | - | - | - | -
 | loopback-connector-elastic-search | - | - | - | - | - | -
-| loopback-connector-grpc | 10,12,14,16 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16
+| loopback-connector-grpc | 14 | 14 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16
 | loopback-connector-ibmi | - | - | - | - | - | -
 | loopback-connector-kv-extreme-scale | - | - | - | - | - | -
 | loopback-connector-kv-redis | - | - | 10,12,14 | - | - | -
