@@ -14,6 +14,7 @@
 | loopback-connector-postgresql | [![Continuous Integration](https://github.com/loopbackio/loopback-connector-postgresql/actions/workflows/continuous-integration.yaml/badge.svg)](https://github.com/loopbackio/loopback-connector-postgresql/actions/workflows/continuous-integration.yaml)
 | loopback-connector-rest | [![Continuous Integration](https://github.com/loopbackio/loopback-connector-rest/actions/workflows/continuous-integration.yaml/badge.svg)](https://github.com/loopbackio/loopback-connector-rest/actions/workflows/continuous-integration.yaml)
 | loopback-connector-soap | [![CI](https://github.com/loopbackio/strong-soap/actions/workflows/continuous-integration.yaml/badge.svg)](https://github.com/loopbackio/strong-soap/actions/workflows/continuous-integration.yaml) [![Build Status](https://app.travis-ci.com/loopbackio/strong-soap.svg?branch=master)](https://app.travis-ci.com/loopbackio/strong-soap)
+| loopback-connector-sqlite3 | [![CI](https://github.com/loopbackio/loopback-connector-sqlite3/actions/workflows/continuous-integration.yaml/badge.svg)](https://github.com/loopbackio/loopback-connector-sqlite3/actions/workflows/continuous-integration.yaml)
 | strong-soap | [![CI](https://github.com/loopbackio/strong-soap/actions/workflows/continuous-integration.yaml/badge.svg)](https://github.com/loopbackio/strong-soap/actions/workflows/continuous-integration.yaml) [![Build Status](https://app.travis-ci.com/loopbackio/strong-soap.svg?branch=master)](https://app.travis-ci.com/loopbackio/strong-soap)
 
 ## Coverage & Renovate Report
@@ -50,7 +51,7 @@
 | loopback-connector-redis | - | - | - | - | - | -
 | loopback-connector-rest | - | - | 12,14,16 | - | - | -
 | loopback-connector-soap | - | - | 10,12,14 | - | - | -
-| loopback-connector-sqlite3 | - | - | - | - | - | -
+| loopback-connector-sqlite3 | - | - | 10,12,14,16 | - | - | -
 | loopback-datasource-juggler | - | - | - | - | - | -
 | loopback-ibmdb | - | - | - | - | - | -
 | strong-soap | 14 | 14 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16
