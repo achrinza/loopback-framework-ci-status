@@ -1,11 +1,11 @@
 # loopback-framework-ci-status
 
-## Test Report
+## Reports
 
-| Repository Name | Test
-|-|-
-| loopback-next | [![Continuous Integration Status](https://github.com/loopbackio/loopback-next/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/loopbackio/loopback-next/actions/workflows/continuous-integration.yml) [![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/q8vp7wrdn2ak6801/branch/master?svg=true)](https://ci.appveyor.com/project/loopbackio/loopback-next/branch/master)
-| loopback-connector-grpc | [![CI](https://github.com/loopbackio/loopback-connector-grpc/actions/workflows/ci.yaml/badge.svg)](https://github.com/loopbackio/loopback-connector-grpc/actions/workflows/ci.yaml) [![Build Status](https://app.travis-ci.com/loopbackio/loopback-connector-grpc.svg?branch=master)](https://app.travis-ci.com/loopbackio/loopback-connector-grpc)
+| Repository Name | Test | Coverage | Renovate
+|-|-|-|-
+| loopback-next | [![Continuous Integration Status](https://github.com/loopbackio/loopback-next/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/loopbackio/loopback-next/actions/workflows/continuous-integration.yml) [![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/q8vp7wrdn2ak6801/branch/master?svg=true)](https://ci.appveyor.com/project/loopbackio/loopback-next/branch/master) | [![Coverage Status](https://coveralls.io/repos/github/loopbackio/loopback-next/badge.svg)](https://coveralls.io/github/loopbackio/loopback-next) | [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
+| loopback-connector-grpc | [![CI](https://github.com/loopbackio/loopback-connector-grpc/actions/workflows/ci.yaml/badge.svg)](https://github.com/loopbackio/loopback-connector-grpc/actions/workflows/ci.yaml) [![Build Status](https://app.travis-ci.com/loopbackio/loopback-connector-grpc.svg?branch=master)](https://app.travis-ci.com/loopbackio/loopback-connector-grpc) | [![Coverage Status](https://coveralls.io/repos/github/loopbackio/loopback-connector-grpc/badge.svg?branch=master)](https://coveralls.io/github/loopbackio/loopback-connector-grpc?branch=master)
 | loopback-connector-kv-redis | [![Continuous Integration](https://github.com/loopbackio/loopback-connector-kv-redis/actions/workflows/continuous-integration.yaml/badge.svg)](https://github.com/loopbackio/loopback-connector-kv-redis/actions/workflows/continuous-integration.yaml)
 | loopback-connector-mongodb | [![Continuous Integration (master branch)](https://github.com/loopbackio/loopback-connector-mongodb/actions/workflows/continuous-integration.yaml/badge.svg)](https://github.com/loopbackio/loopback-connector-mongodb/actions/workflows/continuous-integration.yaml)
 | loopback-connector-mongodb (5.x branch) | [![Continuous Integration (5.x branch)](https://github.com/loopbackio/loopback-connector-mongodb/actions/workflows/continuous-integration.yaml/badge.svg?branch=5.x)](https://github.com/loopbackio/loopback-connector-mongodb/actions/workflows/continuous-integration.yaml)
@@ -13,18 +13,9 @@
 | loopback-connector-openapi | [![Build Status](https://app.travis-ci.com/loopbackio/loopback-connector-openapi.svg?branch=master)](https://app.travis-ci.com/loopbackio/loopback-connector-openapi)
 | loopback-connector-postgresql | [![Continuous Integration](https://github.com/loopbackio/loopback-connector-postgresql/actions/workflows/continuous-integration.yaml/badge.svg)](https://github.com/loopbackio/loopback-connector-postgresql/actions/workflows/continuous-integration.yaml)
 | loopback-connector-rest | [![Continuous Integration](https://github.com/loopbackio/loopback-connector-rest/actions/workflows/continuous-integration.yaml/badge.svg)](https://github.com/loopbackio/loopback-connector-rest/actions/workflows/continuous-integration.yaml)
-| loopback-connector-soap | [![CI](https://github.com/loopbackio/strong-soap/actions/workflows/continuous-integration.yaml/badge.svg)](https://github.com/loopbackio/strong-soap/actions/workflows/continuous-integration.yaml) [![Build Status](https://app.travis-ci.com/loopbackio/strong-soap.svg?branch=master)](https://app.travis-ci.com/loopbackio/strong-soap)
+| loopback-connector-soap | [![CI](https://github.com/loopbackio/strong-soap/actions/workflows/continuous-integration.yaml/badge.svg)](https://github.com/loopbackio/strong-soap/actions/workflows/continuous-integration.yaml) [![Build Status](https://app.travis-ci.com/loopbackio/strong-soap.svg?branch=master)](https://app.travis-ci.com/loopbackio/strong-soap) | [![Coverage Status](https://coveralls.io/repos/github/loopbackio/loopback-connector-soap/badge.svg)](https://coveralls.io/github/loopbackio/loopback-connector-soap) | -
 | loopback-connector-sqlite3 | [![CI](https://github.com/loopbackio/loopback-connector-sqlite3/actions/workflows/continuous-integration.yaml/badge.svg)](https://github.com/loopbackio/loopback-connector-sqlite3/actions/workflows/continuous-integration.yaml)
-| strong-soap | [![CI](https://github.com/loopbackio/strong-soap/actions/workflows/continuous-integration.yaml/badge.svg)](https://github.com/loopbackio/strong-soap/actions/workflows/continuous-integration.yaml) [![Build Status](https://app.travis-ci.com/loopbackio/strong-soap.svg?branch=master)](https://app.travis-ci.com/loopbackio/strong-soap)
-
-## Coverage & Renovate Report
-
-| Repository Name | Coverage | Renovate
-|-|-|-
-| loopback-next | [![Coverage Status](https://coveralls.io/repos/github/loopbackio/loopback-next/badge.svg)](https://coveralls.io/github/loopbackio/loopback-next) | [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
-| loopback-connector-grpc | [![Coverage Status](https://coveralls.io/repos/github/loopbackio/loopback-connector-grpc/badge.svg?branch=master)](https://coveralls.io/github/loopbackio/loopback-connector-grpc?branch=master)
-| loopback-connector-soap | [![Coverage Status](https://coveralls.io/repos/github/loopbackio/loopback-connector-soap/badge.svg)](https://coveralls.io/github/loopbackio/loopback-connector-soap) | -
-| strong-soap | [![Coverage Status](https://coveralls.io/repos/github/loopbackio/strong-soap/badge.svg)](https://coveralls.io/github/loopbackio/strong-soap) | -
+| strong-soap | [![CI](https://github.com/loopbackio/strong-soap/actions/workflows/continuous-integration.yaml/badge.svg)](https://github.com/loopbackio/strong-soap/actions/workflows/continuous-integration.yaml) [![Build Status](https://app.travis-ci.com/loopbackio/strong-soap.svg?branch=master)](https://app.travis-ci.com/loopbackio/strong-soap) | [![Coverage Status](https://coveralls.io/repos/github/loopbackio/strong-soap/badge.svg)](https://coveralls.io/github/loopbackio/strong-soap) | -
 
 ## Testing Environment
 
