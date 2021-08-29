@@ -5,7 +5,7 @@
 | Repository Name | Test
 |-|-
 | loopback-next | [![Continuous Integration Status](https://github.com/loopbackio/loopback-next/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/loopbackio/loopback-next/actions/workflows/continuous-integration.yml) [![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/q8vp7wrdn2ak6801/branch/master?svg=true)](https://ci.appveyor.com/project/loopbackio/loopback-next/branch/master)
-| loopback-connector-grpc | [![Build Status](https://app.travis-ci.com/loopbackio/loopback-connector-grpc.svg?branch=master)](https://app.travis-ci.com/loopbackio/loopback-connector-grpc)
+| loopback-connector-grpc | [![CI](https://github.com/loopbackio/loopback-connector-grpc/actions/workflows/ci.yaml/badge.svg)](https://github.com/loopbackio/loopback-connector-grpc/actions/workflows/ci.yaml) [![Build Status](https://app.travis-ci.com/loopbackio/loopback-connector-grpc.svg?branch=master)](https://app.travis-ci.com/loopbackio/loopback-connector-grpc)
 | loopback-connector-kv-redis | [![Continuous Integration](https://github.com/loopbackio/loopback-connector-kv-redis/actions/workflows/continuous-integration.yaml/badge.svg)](https://github.com/loopbackio/loopback-connector-kv-redis/actions/workflows/continuous-integration.yaml)
 | loopback-connector-mongodb | [![Continuous Integration (master branch)](https://github.com/loopbackio/loopback-connector-mongodb/actions/workflows/continuous-integration.yaml/badge.svg)](https://github.com/loopbackio/loopback-connector-mongodb/actions/workflows/continuous-integration.yaml)
 | loopback-connector-mongodb (5.x branch) | [![Continuous Integration (5.x branch)](https://github.com/loopbackio/loopback-connector-mongodb/actions/workflows/continuous-integration.yaml/badge.svg?branch=5.x)](https://github.com/loopbackio/loopback-connector-mongodb/actions/workflows/continuous-integration.yaml)
@@ -21,6 +21,7 @@
 | Repository Name | Coverage | Renovate
 |-|-|-
 | loopback-next | [![Coverage Status](https://coveralls.io/repos/github/loopbackio/loopback-next/badge.svg)](https://coveralls.io/github/loopbackio/loopback-next) | [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
+| loopback-connector-grpc | [![Coverage Status](https://coveralls.io/repos/github/loopbackio/loopback-connector-grpc/badge.svg?branch=master)](https://coveralls.io/github/loopbackio/loopback-connector-grpc?branch=master)
 | loopback-connector-soap | [![Coverage Status](https://coveralls.io/repos/github/loopbackio/loopback-connector-soap/badge.svg)](https://coveralls.io/github/loopbackio/loopback-connector-soap) | -
 | strong-soap | [![Coverage Status](https://coveralls.io/repos/github/loopbackio/strong-soap/badge.svg)](https://coveralls.io/github/loopbackio/strong-soap) | -
 
@@ -35,7 +36,7 @@
 | loopback-connector-db2 | - | - | - | - | - | -
 | loopback-connector-dashdb | - | - | - | - | - | -
 | loopback-connector-elastic-search | - | - | - | - | - | -
-| loopback-connector-grpc | - | - | 10,12,14 | - | - | -
+| loopback-connector-grpc | 10,12,14,16 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16
 | loopback-connector-ibmi | - | - | - | - | - | -
 | loopback-connector-kv-extreme-scale | - | - | - | - | - | -
 | loopback-connector-kv-redis | - | - | 10,12,14 | - | - | -
