@@ -62,7 +62,7 @@
 | Windows x86-64 (loopback-next) | AppVeyor
 | Windows x86-64 | GitHub Actions
 | macOS x86-64 | GitHub Actions
-| Linux x86-64 (loopback-connector-cassandra/cloudant/grpc/openapi) | Travis CI
+| Linux x86-64 (loopback-connector-cassandra/cloudant/openapi) | Travis CI
 | Linux x86-64 | GitHub Actions
 | Linux Aarch64 | Travis CI
 | Linux Aarch64 | Travis CI
