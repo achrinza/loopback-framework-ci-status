@@ -7,8 +7,8 @@
 | loopback-next | [![Continuous Integration Status](https://github.com/loopbackio/loopback-next/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/loopbackio/loopback-next/actions/workflows/continuous-integration.yml) [![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/q8vp7wrdn2ak6801/branch/master?svg=true)](https://ci.appveyor.com/project/loopbackio/loopback-next/branch/master) | [![Coverage Status](https://coveralls.io/repos/github/loopbackio/loopback-next/badge.svg)](https://coveralls.io/github/loopbackio/loopback-next) | [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
 | loopback-connector-grpc | [![CI](https://github.com/loopbackio/loopback-connector-grpc/actions/workflows/ci.yaml/badge.svg)](https://github.com/loopbackio/loopback-connector-grpc/actions/workflows/ci.yaml) [![Build Status](https://app.travis-ci.com/loopbackio/loopback-connector-grpc.svg?branch=master)](https://app.travis-ci.com/loopbackio/loopback-connector-grpc) | [![Coverage Status](https://coveralls.io/repos/github/loopbackio/loopback-connector-grpc/badge.svg?branch=master)](https://coveralls.io/github/loopbackio/loopback-connector-grpc?branch=master)
 | loopback-connector-kv-redis | [![Continuous Integration](https://github.com/loopbackio/loopback-connector-kv-redis/actions/workflows/continuous-integration.yaml/badge.svg)](https://github.com/loopbackio/loopback-connector-kv-redis/actions/workflows/continuous-integration.yaml)
-| loopback-connector-mongodb | [![Continuous Integration (master branch)](https://github.com/loopbackio/loopback-connector-mongodb/actions/workflows/continuous-integration.yaml/badge.svg)](https://github.com/loopbackio/loopback-connector-mongodb/actions/workflows/continuous-integration.yaml)
-| loopback-connector-mongodb (5.x branch) | [![Continuous Integration (5.x branch)](https://github.com/loopbackio/loopback-connector-mongodb/actions/workflows/continuous-integration.yaml/badge.svg?branch=5.x)](https://github.com/loopbackio/loopback-connector-mongodb/actions/workflows/continuous-integration.yaml)
+| loopback-connector-mongodb | [![Continuous Integration (master branch)](https://github.com/loopbackio/loopback-connector-mongodb/actions/workflows/continuous-integration.yaml/badge.svg)](https://github.com/loopbackio/loopback-connector-mongodb/actions/workflows/continuous-integration.yaml) [![Build Status](https://app.travis-ci.com/loopbackio/loopback-connector-mongodb.svg?branch=master)](https://app.travis-ci.com/loopbackio/loopback-connector-mongodb)
+| loopback-connector-mongodb (5.x branch) | [![Continuous Integration (5.x branch)](https://github.com/loopbackio/loopback-connector-mongodb/actions/workflows/continuous-integration.yaml/badge.svg?branch=5.x)](https://github.com/loopbackio/loopback-connector-mongodb/actions/workflows/continuous-integration.yaml) [![Build Status](https://app.travis-ci.com/loopbackio/loopback-connector-mongodb.svg?branch=5.x)](https://app.travis-ci.com/loopbackio/loopback-connector-mongodb)
 | loopback-connector-mysql | [![Continous Integration](https://github.com/loopbackio/loopback-connector-mysql/actions/workflows/ci.yml/badge.svg)](https://github.com/loopbackio/loopback-connector-mysql/actions/workflows/ci.yml)
 | loopback-connector-openapi | [![Build Status](https://app.travis-ci.com/loopbackio/loopback-connector-openapi.svg?branch=master)](https://app.travis-ci.com/loopbackio/loopback-connector-openapi)
 | loopback-connector-postgresql | [![Continuous Integration](https://github.com/loopbackio/loopback-connector-postgresql/actions/workflows/continuous-integration.yaml/badge.svg)](https://github.com/loopbackio/loopback-connector-postgresql/actions/workflows/continuous-integration.yaml)
@@ -19,33 +19,33 @@
 
 ## Testing Environment
 
-| Repository Name | Windows x86-64 | macOS x86-64 | Linux x86-64 | Linux Aarch64 | Linux ppc64le | Linux s390x
-|-|-|-|-|-|-|-
-| loopback-next | 14 | 14 | 10,12,14,16 | - | - | -
-| loopback-connector-cassandra | - | - | 8,10,12 | - | - | -
-| loopback-connector-cloudant | - | - | 12,14,16 | - | - | -
-| loopback-connector-couchdb2 | - | - | - | - | - | -
-| loopback-connector-db2 | - | - | - | - | - | -
-| loopback-connector-dashdb | - | - | - | - | - | -
-| loopback-connector-elastic-search | - | - | - | - | - | -
-| loopback-connector-grpc | 14 | 14 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16
-| loopback-connector-ibmi | - | - | - | - | - | -
-| loopback-connector-kv-extreme-scale | - | - | - | - | - | -
-| loopback-connector-kv-redis | - | - | 10,12,14 | - | - | -
-| loopback-connector-mongodb | - | - | 10,12,14 | - | - | -
-| loopback-connector-mongodb (5.x branch) | - | - | 10,12,14 | - | - | -
-| loopback-connector-mssql | - | - | - | - | - | -
-| loopback-connector-mysql | - | - | 12,14,16 | - | - | -
-| loopback-connector-openapi | - | - | 10,12,14 | - | - | -
-| loopback-connector-oracle | - | - | - | - | - | -
-| loopback-connector-postgresql | - | - | 12,14,16 | - | - | -
-| loopback-connector-redis | - | - | - | - | - | -
-| loopback-connector-rest | - | - | 12,14,16 | - | - | -
-| loopback-connector-soap | - | - | 10,12,14 | - | - | -
-| loopback-connector-sqlite3 | - | - | 10,12,14,16 | - | - | -
-| loopback-datasource-juggler | - | - | - | - | - | -
-| loopback-ibmdb | - | - | - | - | - | -
-| strong-soap | 14 | 14 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16
+| Repository Name | Windows x86-64 | macOS x86-64 | Linux x86-64 | Linux Aarch64 | Linux ppc64le | Linux s390x | Database Version
+|-|-|-|-|-|-|-|-
+| loopback-next | 14 | 14 | 10,12,14,16 | - | - | - | -
+| loopback-connector-cassandra | - | - | 8,10,12 | - | - | - | -
+| loopback-connector-cloudant | - | - | 12,14,16 | - | - | - | -
+| loopback-connector-couchdb2 | - | - | - | - | - | - | -
+| loopback-connector-db2 | - | - | - | - | - | - | -
+| loopback-connector-dashdb | - | - | - | - | - | - | -
+| loopback-connector-elastic-search | - | - | - | - | - | - | -
+| loopback-connector-grpc | 14 | 14 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16 | -
+| loopback-connector-ibmi | - | - | - | - | - | - | -
+| loopback-connector-kv-extreme-scale | - | - | - | - | - | - | -
+| loopback-connector-kv-redis | - | - | 10,12,14 | - | - | - | -
+| loopback-connector-mongodb | - | - | 10,12,14,16 | 10,12,14,16 | - | - | 4.4
+| loopback-connector-mongodb (5.x branch) | - | - | 10,12,14 | - | - | - | 4.4
+| loopback-connector-mssql | - | - | - | - | - | - | -
+| loopback-connector-mysql | - | - | 12,14,16 | - | - | - | -
+| loopback-connector-openapi | - | - | 10,12,14 | - | - | - | -
+| loopback-connector-oracle | - | - | - | - | - | - | -
+| loopback-connector-postgresql | - | - | 12,14,16 | - | - | - | -
+| loopback-connector-redis | - | - | - | - | - | - | -
+| loopback-connector-rest | - | - | 12,14,16 | - | - | - | -
+| loopback-connector-soap | - | - | 10,12,14 | - | - | - | -
+| loopback-connector-sqlite3 | - | - | 10,12,14,16 | - | - | - | -
+| loopback-datasource-juggler | - | - | - | - | - | - | -
+| loopback-ibmdb | - | - | - | - | - | - | -
+| strong-soap | 14 | 14 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16 | -
 
 ## Testing Environment CI provider
 
