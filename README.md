@@ -1,5 +1,7 @@
 # loopback-framework-ci-status
 
+The LoopBack framework is undergoing a shift away from IBM-hosted Jenkins to open CI infrastructure on GitHub Actions and Travis CI. This document is used to keep track of the general migration progress.
+
 ## Reports
 
 | Repository Name | Test | Coverage | Renovate
