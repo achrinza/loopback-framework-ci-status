@@ -24,7 +24,7 @@ The LoopBack framework is undergoing a shift away from IBM-hosted Jenkins to ope
 | Repository Name | Windows x86-64 | macOS x86-64 | Linux x86-64 | Linux Aarch64 | Linux ppc64le | Linux s390x | Database Version
 |-|-|-|-|-|-|-|-
 | loopback-next | 14 | 14 | 10,12,14,16 | - | - | - | -
-| loopback-connector-cassandra | - | - | 8,10,12 | - | - | - | -
+| loopback-connector-cassandra | - | - | 8,10,12,14,16 | - | - | - | -
 | loopback-connector-cloudant | - | - | 12,14,16 | - | - | - | -
 | loopback-connector-couchdb2 | - | - | - | - | - | - | -
 | loopback-connector-db2 | - | - | - | - | - | - | -
@@ -56,7 +56,7 @@ The LoopBack framework is undergoing a shift away from IBM-hosted Jenkins to ope
 | Windows x86-64 (loopback-next) | AppVeyor
 | Windows x86-64 | GitHub Actions
 | macOS x86-64 | GitHub Actions
-| Linux x86-64 (loopback-connector-cassandra/cloudant/openapi) | Travis CI
+| Linux x86-64 (loopback-connector-/cloudant/openapi) | Travis CI
 | Linux x86-64 | GitHub Actions
 | Linux Aarch64 | Travis CI
 | Linux Aarch64 | Travis CI
