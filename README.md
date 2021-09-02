@@ -1,6 +1,6 @@
 # loopback-framework-ci-status
 
-The LoopBack framework is undergoing a shift away from IBM-hosted Jenkins to open CI infrastructure on GitHub Actions and Travis CI. This document is used to keep track of the general migration progress.
+The LoopBack framework is undergoing a shift away from IBM-hosted Jenkins to open CI infrastructure with GitHub Actions, Travis CI and AppVeyor. This document is used to keep track of the general migration progress.
 
 ## Reports
 
@@ -22,7 +22,7 @@ The LoopBack framework is undergoing a shift away from IBM-hosted Jenkins to ope
 
 ## Testing Environment
 
-| Repository Name | Windows x86-64 | macOS x86-64 | Linux x86-64 | Linux Aarch64 | Linux ppc64le | Linux s390x | Database Version
+| Repository Name | Windows x86-64 | macOS x86-64 | Linux x86-64 | Linux arm64v8 | Linux ppc64le | Linux s390x | Database Version
 |-|-|-|-|-|-|-|-
 | loopback-next | 14 | 14 | 10,12,14,16 | - | - | - | -
 | loopback-connector-cassandra | - | - | 8,10,12,14,16 | - | - | - | -
@@ -59,8 +59,8 @@ The LoopBack framework is undergoing a shift away from IBM-hosted Jenkins to ope
 | macOS x86-64 | GitHub Actions
 | Linux x86-64 (loopback-connector-/cloudant/openapi) | Travis CI
 | Linux x86-64 | GitHub Actions
-| Linux Aarch64 | Travis CI
-| Linux Aarch64 | Travis CI
+| Linux arm64v8 | Travis CI
+| Linux arm64v8 | Travis CI
 | Linux ppc64le | Travis CI
 | Linux s390x | Travis CI
 
