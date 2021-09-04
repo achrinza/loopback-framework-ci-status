@@ -25,31 +25,32 @@ The LoopBack framework is undergoing a shift away from IBM-hosted Jenkins to ope
 
 | Repository Name | Windows x86-64 | macOS x86-64 | Linux x86-64 | Linux arm64v8 | Linux ppc64le | Linux s390x | Database Version
 |-|-|-|-|-|-|-|-
-| loopback-next | 14 | 14 | 10,12,14,16 | - | - | - | -
-| loopback-connector-cassandra | - | - | 8,10,12,14,16 | - | - | - | -
-| loopback-connector-cloudant | - | - | 12,14,16 | - | - | - | -
-| loopback-connector-couchdb2 | - | - | - | - | - | - | -
-| loopback-connector-db2 | - | - | - | - | - | - | -
-| loopback-connector-dashdb | - | - | - | - | - | - | -
-| loopback-connector-elastic-search | - | - | - | - | - | - | -
-| loopback-connector-grpc | 14 | 14 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16 | -
-| loopback-connector-ibmi | - | - | - | - | - | - | -
-| loopback-connector-kv-extreme-scale | - | - | - | - | - | - | -
-| loopback-connector-kv-redis | - | - | 10,12,14 | - | - | - | -
-| loopback-connector-mongodb | - | - | 10,12,14,16 | 10,12,14,16 | - | - | 4.4
-| loopback-connector-mongodb (5.x branch) | - | - | 10,12,14 | - | - | - | 4.4
-| loopback-connector-mssql | - | - | - | - | - | - | -
-| loopback-connector-mysql | - | - | 12,14,16 | - | - | - | -
-| loopback-connector-openapi | - | - | 10,12,14 | - | - | - | -
-| loopback-connector-oracle | - | - | - | - | - | - | -
-| loopback-connector-postgresql | - | - | 12,14,16 | - | - | - | -
-| loopback-connector-redis | - | - | - | - | - | - | -
-| loopback-connector-rest | - | - | 12,14,16 | - | - | - | -
-| loopback-connector-soap | - | - | 10,12,14 | - | - | - | -
-| loopback-connector-sqlite3 | - | - | 10,12,14,16 | - | - | - | -
-| loopback-datasource-juggler | 14 | 14 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16 | -
-| loopback-ibmdb | - | - | - | - | - | - | -
-| strong-soap | 14 | 14 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16 | -
+| loopback-next | 14 | 14 | 10,12,14,16
+| loopback-connector-cassandra ||| 8,10,12,14,16
+| loopback-connector-cloudant ||| 12,14,16
+| loopback-connector-couchdb2
+| loopback-connector-db2
+| loopback-connector-dashdb
+| loopback-connector-elastic-search
+| loopback-connector-grpc | 14 | 14 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16
+| loopback-connector-ibmi
+| loopback-connector-kv-extreme-scale
+| loopback-connector-kv-redis ||| 10,12,14
+| loopback-connector-mongodb | 10,12,14,16 | 10,12,14,16 ||| 4.4
+| loopback-connector-mongodb (5.x branch) ||| 10,12,14 |||| 4.4
+| loopback-connector-mssql
+| loopback-connector-mysql ||| 12,14,16
+| loopback-connector-openapi ||| 10,12,14
+| loopback-connector-oracle
+| loopback-connector-postgresql ||| 12,14,16
+| loopback-connector-redis
+| loopback-connector-rest ||| 12,14,16
+| loopback-connector-soap ||| 10,12,14
+| loopback-connector-sqlite3 ||| 10,12,14,16
+| loopback-datasource-juggler | 14 | 14 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16
+| loopback-extension-grpc || 10,12,14 | 10,12,14
+| loopback-ibmdb
+| strong-soap | 14 | 14 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16
 
 ## Testing Environment CI provider
 
