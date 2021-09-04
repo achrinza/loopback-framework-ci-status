@@ -18,6 +18,7 @@ The LoopBack framework is undergoing a shift away from IBM-hosted Jenkins to ope
 | loopback-connector-rest | [![Continuous Integration](https://github.com/loopbackio/loopback-connector-rest/actions/workflows/continuous-integration.yaml/badge.svg)](https://github.com/loopbackio/loopback-connector-rest/actions/workflows/continuous-integration.yaml)
 | loopback-connector-soap | [![CI](https://github.com/loopbackio/strong-soap/actions/workflows/continuous-integration.yaml/badge.svg)](https://github.com/loopbackio/strong-soap/actions/workflows/continuous-integration.yaml) [![Build Status](https://app.travis-ci.com/loopbackio/strong-soap.svg?branch=master)](https://app.travis-ci.com/loopbackio/strong-soap) | [![Coverage Status](https://coveralls.io/repos/github/loopbackio/loopback-connector-soap/badge.svg)](https://coveralls.io/github/loopbackio/loopback-connector-soap) | -
 | loopback-connector-sqlite3 | [![CI](https://github.com/loopbackio/loopback-connector-sqlite3/actions/workflows/continuous-integration.yaml/badge.svg)](https://github.com/loopbackio/loopback-connector-sqlite3/actions/workflows/continuous-integration.yaml)
+| loopback-datasource-juggler | [![CI](https://github.com/loopbackio/loopback-datasource-juggler/actions/workflows/ci.yaml/badge.svg)](https://github.com/loopbackio/loopback-datasource-juggler/actions/workflows/ci.yaml)[![Build Status](https://app.travis-ci.com/loopbackio/loopback-datasource-juggler.svg?branch=master)](https://app.travis-ci.com/loopbackio/loopback-datasource-juggler) | [![Coverage Status](https://coveralls.io/repos/github/loopbackio/loopback-datasource-juggler/badge.svg?branch=master)](https://coveralls.io/github/loopbackio/loopback-datasource-juggler?branch=master)
 | strong-soap | [![CI](https://github.com/loopbackio/strong-soap/actions/workflows/continuous-integration.yaml/badge.svg)](https://github.com/loopbackio/strong-soap/actions/workflows/continuous-integration.yaml) [![Build Status](https://app.travis-ci.com/loopbackio/strong-soap.svg?branch=master)](https://app.travis-ci.com/loopbackio/strong-soap) | [![Coverage Status](https://coveralls.io/repos/github/loopbackio/strong-soap/badge.svg)](https://coveralls.io/github/loopbackio/strong-soap) | -
 
 ## Testing Environment
@@ -46,7 +47,7 @@ The LoopBack framework is undergoing a shift away from IBM-hosted Jenkins to ope
 | loopback-connector-rest | - | - | 12,14,16 | - | - | - | -
 | loopback-connector-soap | - | - | 10,12,14 | - | - | - | -
 | loopback-connector-sqlite3 | - | - | 10,12,14,16 | - | - | - | -
-| loopback-datasource-juggler | - | - | - | - | - | - | -
+| loopback-datasource-juggler | 14 | 14 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16 | -
 | loopback-ibmdb | - | - | - | - | - | - | -
 | strong-soap | 14 | 14 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16 | -
 
