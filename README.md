@@ -36,7 +36,7 @@ The LoopBack framework is undergoing a shift away from IBM-hosted Jenkins to ope
 | loopback-connector-ibmi
 | loopback-connector-kv-extreme-scale
 | loopback-connector-kv-redis ||| 10,12,14
-| loopback-connector-mongodb | 10,12,14,16 | 10,12,14,16 ||| 4.4
+| loopback-connector-mongodb ||| 10,12,14,16 | 10,12,14,16 ||| 4.4
 | loopback-connector-mongodb (5.x branch) ||| 10,12,14 |||| 4.4
 | loopback-connector-mssql
 | loopback-connector-mysql ||| 12,14,16
