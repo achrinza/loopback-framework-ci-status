@@ -48,7 +48,7 @@ The LoopBack framework is undergoing a shift away from IBM-hosted Jenkins to ope
 | loopback-connector-soap ||| 10,12,14
 | loopback-connector-sqlite3 ||| 10,12,14,16
 | loopback-datasource-juggler | 14 | 14 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16
-| loopback-extension-grpc || 10,12,14 | 10,12,14
+| loopback-extension-grpc
 | loopback-ibmdb
 | strong-soap | 14 | 14 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16
 
