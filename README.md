@@ -7,6 +7,7 @@ The LoopBack framework is undergoing a shift away from IBM-hosted Jenkins to ope
 | Repository Name | Test | Coverage | Renovate | Restricted GITHUB_TOKEN?
 |-|-|-|-|:-:
 | loopback-next | [![Continuous Integration Status](https://github.com/loopbackio/loopback-next/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/loopbackio/loopback-next/actions/workflows/continuous-integration.yml) [![Build Status](https://app.travis-ci.com/loopbackio/loopback-next.svg?branch=master)](https://app.travis-ci.com/loopbackio/loopback-next) [![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/q8vp7wrdn2ak6801/branch/master?svg=true)](https://ci.appveyor.com/project/loopbackio/loopback-next/branch/master) | [![Coverage Status](https://coveralls.io/repos/github/loopbackio/loopback-next/badge.svg)](https://coveralls.io/github/loopbackio/loopback-next) | [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/) | ✔️
+| loopback-connector | [![CI](https://github.com/loopbackio/loopback-connector/actions/workflows/continuous-integration.yaml/badge.svg)](https://github.com/loopbackio/loopback-connector/actions/workflows/continuous-integration.yaml) [![Build Status](https://app.travis-ci.com/loopbackio/loopback-connector.svg?branch=master)](https://app.travis-ci.com/loopbackio/loopback-connector) | [![Coverage Status](https://coveralls.io/repos/github/loopbackio/loopback-connector/badge.svg?branch=master)](https://coveralls.io/github/loopbackio/loopback-connector?branch=master) || ✔️
 | loopback-connector-cassandra | [![Build Status](https://app.travis-ci.com/loopbackio/loopback-connector-cassandra.svg?branch=master)](https://app.travis-ci.com/loopbackio/loopback-connector-cassandra)
 | loopback-connector-grpc | [![CI](https://github.com/loopbackio/loopback-connector-grpc/actions/workflows/ci.yaml/badge.svg)](https://github.com/loopbackio/loopback-connector-grpc/actions/workflows/ci.yaml) [![Build Status](https://app.travis-ci.com/loopbackio/loopback-connector-grpc.svg?branch=master)](https://app.travis-ci.com/loopbackio/loopback-connector-grpc) | [![Coverage Status](https://coveralls.io/repos/github/loopbackio/loopback-connector-grpc/badge.svg?branch=master)](https://coveralls.io/github/loopbackio/loopback-connector-grpc?branch=master)
 | loopback-connector-kv-redis | [![Continuous Integration](https://github.com/loopbackio/loopback-connector-kv-redis/actions/workflows/continuous-integration.yaml/badge.svg)](https://github.com/loopbackio/loopback-connector-kv-redis/actions/workflows/continuous-integration.yaml)
@@ -26,6 +27,7 @@ The LoopBack framework is undergoing a shift away from IBM-hosted Jenkins to ope
 | Repository Name | Windows x86-64 | macOS x86-64 | Linux x86-64 | Linux arm64v8 | Linux ppc64le | Linux s390x | Database Version
 |-|-|-|-|-|-|-|-
 | loopback-next | 14 | 14 | 10,12,14,16
+| loopback-connector | 14 | 14 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16 | 10,12,14,16
 | loopback-connector-cassandra ||| 8,10,12,14,16
 | loopback-connector-cloudant ||| 12,14,16
 | loopback-connector-couchdb2
